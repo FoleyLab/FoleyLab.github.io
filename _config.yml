@@ -1,3 +1,10 @@
 theme: jekyll-theme-cayman
 title: Foley Lab
 description: The Foley Research Lab
+
+# Social
+analytics-id:       "default"
+twitter:            default
+facebook:           default
+instagram:          default
+github:             default
