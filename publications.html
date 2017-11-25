@@ -1,38 +1,39 @@
 ---
 layout: page
-title: Jekyll Theme - Elements Reference - Massively
-description: Having a massive list of every element of a theme is useful for quick referencing and ideas. Here is every component of Massively!
-sitemap:
+title: Publications
+description: Foley Lab Publications
     priority: 0.7
     lastmod: 2017-11-02
     changefreq: weekly
 ---
-<header class="major">
-	<h1>Publications</h1>
-</header>
-<!DOCTYPE html>
-<html>
-<body>
+---
+layout: default
+---
 
-        <h3>Default</h3>
-        <div class="table-wrapper">
-                <table>
-                        <tbody>
-                                <tr>
-                                        <td><span class="image left"><img src="{{ "/images/SMA.png" | absolute_url
-}}" alt="" /></span>   </td>
-                                        <td><u> J. Codrington </u>, <u> N. Eldabagh </u>, <u> K. Fernando </u>, <b> J. J. Foley IV </b>
-         <i> ACS Photonics </i> (2017), "Unique hot carrier distributions from scattering-mediated absorption" </td>
-                                </tr>
-                                <tr>
-                                        <td><span class="image left"><img src="{{ "/images/ACSPhot.png" | absolute_url
-}}" alt="" /></span></td>
-                                        <td><u> J. Codrington </u>, <u> N. Eldabagh </u>, <u> K. Fernando </u>, <b> J. J. Foley IV </b>
-         <i> ACS Photonics </i> (2017), "Unique hot carrier distributions from scattering-mediated absorption" </td>
-                                </tr>
-                        </tbody>
-                </table>
+<!-- Banner -->
+<section id="banner">
+    <div class="inner">
+        <h2>Publications</h2>
+    </div>
+</section>
+<section id="main" class="wrapper style1">
+  <header class="minorleft"><h4>* = corresponding author</h4></header>
+  {% for post in site.posts %}
+    {% if post.category == "publication" %}
+        <div class="wrapper {% cycle 'style1', 'style2' %}">
+            <header class="majorleft">
+                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+		<h4><a href="{{ site.baseurl }}{{ post.url }}"><b>{{ post.authors }}. </b><i>{{ post.journal }} </i>({{ post.year }})</a></h4>
+            </header>
+	    <section class="container">
+	      {{ post.content | strip_html | markdownify | truncatewords: site.pub-preview-words }}
+            </section>
+            <section class="special">
+                <ul class="actions">
+                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button {% cycle '', 'alt'%}">Read More</a></li>
+                </ul>
+            </section>
         </div>
-
-
-
+	{% endif %}
+    {% endfor %}
+</section>
