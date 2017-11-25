@@ -1,28 +1,11 @@
 ---
-layout: post
-title:  "Welcome to Massively: The Jekyll Theme!"
-date:   2017-10-31
-excerpt: "Huge thanks to HTML5 UP for making this awesome template! Let's see what it can do"
-image: "/images/pic02.jpg"
+layout: pub
+image: /images/ACSPhoton.png
+link: http://pubs.acs.org/doi/abs/10.1021/acsphotonics.6b00773
+title: "Unique hot carrier distributions from scattering mediated absorption "
+authors: "Jason Codrington, Noor Eldabagh, Kimberly Fernando, Jonathan J. Foley IV"
+journal: "ACS Photonics"
+year: 2017
+category: publication
 ---
-
-## How to Use This Theme
-Just go ahead and read up on [how to install Jekyll](https://jekyllrb.com/). It's not too hard I promise!
-
-Download this repository [here](https://github.com/iwiedenm/jekyll-theme-massively) and save it to any folder you want.
-
-Open a terminal window or a command line and ```cd``` to that location.
-
-Then enter: ```bundle exec jekyll serve```. You can now access your new Jekyll site from [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Have fun exploring your new site!
-
-## Features
-### Auto-Generating Sitemap
-The sitemap is auto generated! Just simply change the front matter of each site. It looks like so...
-```
-sitemap:
-    priority: 0.7
-    lastmod: 2017-11-02
-    changefreq: weekly
-```
-### Formspring integration
-The contact form below each page on the footer actually collects information! Just change your email address in the ```_config.yml``` file!
+Light-initiated generation of energetic carriers has attracted considerable attention as a paradigm for photocatalysis and solar energy conversion, and the use of noble metal nanoparticles that support localized surface plasmon resonances has been widely explored as a medium for realizing this paradigm. It was recently shown that composite nanostructures enabling the interplay between dielectric scattering resonances and broadband absorption in small metal nanostructures, a phenomenon termed scattering-mediated absorption, can be used to mediate energetic carrier transfer and selective photochemistry with low-intensity light while completely circumventing plasmon resonance. In this work, we develop a multiscale modeling approach for elucidating the hot carrier dynamics initiated by scattering-mediated absorption. Our calculations reveal that unique hot carrier distributions and dynamics arise from scattering-mediated absorption as compared to plasmon excitation and also suggest that in a variety of circumstances scattering-mediated absorption may lead to more efficient hot carrier generation compared to plasmon resonance under the same external illumination conditions. These results are an important first step in understanding the phenomena of scattering-mediated hot carrier generation, which has potential for expanding the palette of materials that can be utilized for hot carrier mediated photochemistry beyond plasmonic metals and for enabling unique pathways for photocatalytic transformations.
