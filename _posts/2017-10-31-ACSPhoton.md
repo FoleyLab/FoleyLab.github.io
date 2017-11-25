@@ -1,6 +1,6 @@
 ---
-layout: pub
-image: /images/ACSPhoton.png
+layout: post
+image: /images/ACSPhot.png
 link: http://pubs.acs.org/doi/abs/10.1021/acsphotonics.6b00773
 title: "Unique hot carrier distributions from scattering mediated absorption "
 authors: "Jason Codrington, Noor Eldabagh, Kimberly Fernando, Jonathan J. Foley IV"
