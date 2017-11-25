@@ -1,5 +1,5 @@
 ---
-layout: pub
+layout: post
 image: /images/SMA.png
 link: https://www.nature.com/articles/nphoton.2016.76
 title: "Near-field dielectric scattering promotes optical absorption by platinum nanoparticles"
