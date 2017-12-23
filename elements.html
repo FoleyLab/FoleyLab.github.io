@@ -41,6 +41,13 @@ B.S. in Chemistry from William Paterson University (2017) <br>
 Current Position:  Research Chemist at Mars <br>
 <hr/>
 
+ {% for post in site.posts %}
+    {% if post.category == "publication" %}
+                <h3> {{ post.title }} </h3>
+                <h4> {{ post.journal }} </h4>
+        {% endif %}
+    {% endfor %}
+
 
 <!-- Preformatted Code
 	<h2>Preformatted</h2>
