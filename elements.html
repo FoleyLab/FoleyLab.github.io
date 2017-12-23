@@ -43,9 +43,17 @@ Current Position:  Research Chemist at Mars <br>
 
  {% for post in site.posts %}
     {% if post.category == "publication" %}
-<hr />
-                <h3> {{ post.title }} </h3>
-                <h4> {{ post.journal }} </h4>
+    <article>
+    <header>
+       <span class="date">{{ post.date | date_to_string }}</span>
+       <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+       </header>
+       <a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
+       <p>{{ post.authors }}</p>
+       <ul class="actions">
+       <li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
+       </ul>
+       </article>
         {% endif %}
     {% endfor %}
 
