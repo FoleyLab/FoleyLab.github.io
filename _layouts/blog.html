@@ -44,8 +44,9 @@
 					<!-- Post -->
 					<section class="posts">
 						{% for post in site.posts %}
-						{% assign mod3 = forloop.index | modulo: 3 %}
-							<article>
+						<!-- {% assign mod3 = forloop.index | modulo: 3 %}  -->
+					        {% if post.category == "publication" %}
+                                                		<article>
 								<header>
 									<span class="date">{{ post.date | date_to_string }}</span>
 									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
@@ -56,7 +57,7 @@
 									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
 								</ul>
 							</article>
-							{% if mod3 == 0 %}
+							<!-- {% if mod3 == 0 %} -->
 							{% endif %}
 						{% endfor %}
 
