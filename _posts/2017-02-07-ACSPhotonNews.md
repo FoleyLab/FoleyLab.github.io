@@ -3,7 +3,6 @@ layout: post
 image: /images/ACSPhot.png
 link: http://pubs.acs.org/doi/abs/10.1021/acsphotonics.6b00773
 title: "Jason, Noor, and Kim's paper is published in ACS Photonics!"
-authors: "Jason Codrington, Noor Eldabagh, Kimberly Fernando, Jonathan J. Foley IV"
 journal: "ACS Photonics"
 year: 2017
 category: post
