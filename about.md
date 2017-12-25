@@ -26,5 +26,3 @@ Light can be seen as a powerful and abundant reagent in chemistry, having both t
   </p>
 </div>
 
-<span class="image left"><img src="{{ "/images/ACSPhot.png" | absolute_url }}" alt="" /></span>
-
