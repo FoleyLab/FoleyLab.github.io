@@ -26,3 +26,10 @@ Light can be seen as a powerful and abundant reagent in chemistry, having both t
   </p>
 </div>
 
+### Tailoring Thermal Radiation 
+<div class="box">
+  <p>
+Light can be seen as a powerful and abundant reagent in chemistry, having both the ability to steer chemical transformations in desired directions, and the ability to report back information on chemical structure and dynamics.  The fundamental ways in which matter interacts with light changes as one or more of the features of that matter approach the nanoscale (10-9 m). Nanostructured matter can have a profound impact on light, having the potential to confine it well beyond the diffraction limit, slow it down to speed much slower than the speed of light in a vacuum, and impart to it much more momentum than it would carry while propagating freely [2,3]. Considerable effort has gone into developing new ways to detect, image, and control chemical systems with ever greater precision by exploiting the various new ways in which light behaves when it interacts with nanostructured matter. 
+
+  </p>
+</div>
