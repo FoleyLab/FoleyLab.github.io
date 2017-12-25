@@ -43,23 +43,24 @@
           </article>
 					<!-- Post -->
 					<section class="posts">
-						{% for post in site.posts %}
-						<!-- {% assign mod3 = forloop.index | modulo: 3 %}  -->
-					        {% if post.category == "post" %}
-                                                		<article>
-								<header>
-									<span class="date">{{ post.date | date_to_string }}</span>
-									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-								</header>
-								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" width=200px alt="" /></a>
-								<!-- <p>{{ post.authors }}</p> -->
-								<ul class="actions">
-									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-								</ul>
-							</article>
-							<!-- {% if mod3 == 0 %} -->
-							{% endif %}
-						{% endfor %}
+ {% for post in site.posts %}
+    {% if post.category == "post" %}
+    <article>
+    <header>
+       <span class="date">{{ post.date | date_to_string }}</span> 
+       <h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
+       </header>
+       <a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a> 
+       <!-- <p>{{ post.authors }}, <i> {{post.journal}} </i>, (<b> {{post.date | date_to_string}} </b>) </p> -->
+       <ul class="actions">
+        <center>
+       <li><a href="{{ post.url | absolute_url }}" class="button">Read More</a></li>
+        </center>
+       </ul>
+       </article>
+        {% endif %}
+    {% endfor %}
+~                 
 
 					</section>
 
