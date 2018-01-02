@@ -21,13 +21,25 @@ The Foley group believes that scientific progress results from the dogged pursui
 ### Light Initiated Energy Transfer with Composite Nanostructures
 <span class="image left"><img src="{{ "/images/HNP.png" | absolute_url }}" alt="" /></span>
 <!-- <div class="box"> <p> -->
-Light can be seen as a powerful and abundant reagent in chemistry, having both the ability to steer chemical transformations in desired directions, and the ability to report back information on chemical structure and dynamics.  The fundamental ways in which matter interacts with light changes as one or more of the features of that matter approach the nanoscale (10-9 m). Nanostructured matter can have a profound impact on light, having the potential to confine it well beyond the diffraction limit, slow it down to speed much slower than the speed of light in a vacuum, and impart to it much more momentum than it would carry while propagating freely [2,3]. Considerable effort has gone into developing new ways to detect, image, and control chemical systems with ever greater precision by exploiting the various new ways in which light behaves when it interacts with nanostructured matter. 
+The interaction between light and nanostructures can give rise to a number of different resonant phenomena, including plasmon resonances in metal nanoparticles, excitonic resonances in semiconductor nanoparticles, and scattering resonances in dielectric (insulating) nanoparticles.  An exciting feature of these resonant phenomena is that they provide opportunities to control the flow of optical energy at the nanoscale, a prospect which has important implications for renewable energy technologies among others.  Creating hybrids of various nanoscale materials can often lead to new emergent phenomena, giving us yet more levers of control over light at the nanoscale.
+
+We have been investigating a class of composite nanostructures that consist of relatively large nanospheres made from optically transparent materials (called dielectrics, one example being glass) decorated with very small metal nanoparticles.  We have demonstrated that these composites support a novel optical phenomenon we call cattering mediated absorption (SMA). Metals nanoparticles have broad absorption, whereas dielectric nanospheres have narrow scattering features; by combining both of these materials, an emergent property is observed which only arises in hierarchical nanoparticles. The interaction between the dielectric nanoparticles causes certain frequencies of light to slow down and be encapsulated for a prolonged period of time. The light trapped in the dielectric core causes strong absorption in the metal nanoparticles, which is observed through absorption features that mimic the dielectric scattering features.  we are investigating how these emergent resonances can be used to drive chemical transformations on molecules adsorbed to the surface.
 
 <!--  </p> </div>  -->
 
-### Tailoring Thermal Radiation 
+### Tailoring Thermal Radiation with Composite Nanostructures 
 <!-- <div class="box"> <p>  -->
 <span class="image left"><img src="{{ "/images/TPV.png" | absolute_url }}" alt="" /></span>
-Light can be seen as a powerful and abundant reagent in chemistry, having both the ability to steer chemical transformations in desired directions, and the ability to report back information on chemical structure and dynamics.  The fundamental ways in which matter interacts with light changes as one or more of the features of that matter approach the nanoscale (10-9 m). Nanostructured matter can have a profound impact on light, having the potential to confine it well beyond the diffraction limit, slow it down to speed much slower than the speed of light in a vacuum, and impart to it much more momentum than it would carry while propagating freely [2,3]. Considerable effort has gone into developing new ways to detect, image, and control chemical systems with ever greater precision by exploiting the various new ways in which light behaves when it interacts with nanostructured matter. 
+A second class of composite nanostructures we have been investigating consist of stacks of nanofilms whose emergent properties allow us to control how they radiate heat.  In particular, such composite planar structures can leverage the interaplay between two resonant phenomena that can be realized in simple planar nanostructures: resonant absorption in weakly-absorbing thin films and reflection resonances in multi-layer dielectric stacks (Bragg Reflectors). The interplay between these resonances enables spectral tunability of the composite nanostructures, 
+which is what enables us to control how these structures
+radiate heat.  One application that can benefit from this ability to control thermal emission 
+is a technology known as solar thermophotovoltaics, which 
+has the potential to achieve solar conversion efficiencies approaching 85%.
+
+As a consequence of the simple geometry of these composite structures, their thermal emission profiles can be
+predicted using simple analytical equations with solutions that can be efficiently evaluated on a computer.  Leveraging this
+fact, we have developed and are deploying
+simple computational machinery to virtually screen millions of candidate structures.  
+
 
  <!--  </p> </div> . -->
