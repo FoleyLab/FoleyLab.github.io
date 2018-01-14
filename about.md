@@ -2,6 +2,7 @@
 layout: page
 title: Foley Lab Research
 description: Research Description of Foley Lab
+date: 2017-11-02
 sitemap:
     priority: 0.7
     lastmod: 2017-11-02
