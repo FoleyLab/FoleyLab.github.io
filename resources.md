@@ -17,7 +17,11 @@ a growing list of YouTube tutorials meant to familiarize you with some of the ba
 how to remotely access the Foley Lab computers, how to edit text on a Linux machine, how to plot data with gnuplot, etc.
 More general resources for best practices for scientific research are also provided.
 
-Click on the links below to take you to video tutorials!
+Internal Resources:
+
+[Foley Lab Project Status Reports](/assets/pubs/FoleyLab_Project_Status_Report.docx)
+
+YouTube Tutorials:
 
 1. Tutorial One: [Remote Access to Foley Lab Computers using ssh](https://youtu.be/DpgQe_j371E)
 
@@ -34,3 +38,8 @@ Click on the links below to take you to video tutorials!
 7. Tutorial Seven: Basic elements of a program in Python (Coming Soon)
 
 8.  Tutorial Eight: Basic LaTeX use (Coming Soon)
+
+External Resources:
+
+1. [Whitesides guide to writing a scientific paper](http://ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
+ 
