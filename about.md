@@ -19,7 +19,7 @@ We pursue these interests by seeking to discover and elucidate new phenomena tha
 
 The Foley group believes that scientific progress results from the dogged pursuit and critical examination of creative insights that gradually chip away at mysteries of the natural world, or move closer to the solution of problems that have societal relevance. We believe that the originators of these insights can be novices as well as experts, perhaps both working together. We believe that the examination of scientific ideas is most effective when approached from multiple angles, often invoking complementary experimental and theoretical exploration. We welcome collaboration and participation from curious individuals from all scientific disciplines and with all levels of scientific accomplishment
 
-### Light Initiated Energy Transfer with Composite Nanostructures
+### Light-Initiated Energy Transfer with Composite Nanostructures
 <span class="image left"><img src="{{ "/images/HNP.png" | absolute_url }}" alt="" /></span>
 <!-- <div class="box"> <p> -->
 The interaction between light and nanostructures can give rise to a number of different resonant phenomena, including plasmon resonances in metal nanoparticles, excitonic resonances in semiconductor nanoparticles, and scattering resonances in dielectric (i.e. optically transparent) nanoparticles.  An exciting feature of these resonant phenomena is that they provide opportunities to control the flow of optical energy at the nanoscale, a prospect which has important implications for renewable energy technologies among others.  Creating hybrids of various nanoscale materials can often lead to new emergent phenomena, giving us yet more levers of control over light at the nanoscale.
