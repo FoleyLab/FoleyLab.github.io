@@ -1,0 +1,24 @@
+---
+layout: post
+image: /images/hpc.jpg
+title: "Foley Lab Tutorials"
+year: 2016
+category: post
+---
+Click on the links below to take you to video tutorials!
+
+1. Tutorial One: [Remote Access to Foley Lab Computers using ssh](https://youtu.be/DpgQe_j371E)
+
+2. Tutorial Two: [Remote Access to Foley Lab Computers using sftp](https://youtu.be/z6j0V4qRDss)
+
+3. Tutorial Three: [Editing text files with Vim](https://youtu.be/DH_RrBCfV6I)
+
+4. Tutorial Four:  [Plotting data with gnuplot](https://youtu.be/zoBxA11S73g)
+
+5. Tutorial Five:  Basic github usage
+
+6. Tutorial Six: Basic elements of a program in C/C++
+
+7. Tutorial Seven: Basic elements of a program in Python
+
+8.  Tutorial Eight: Basic LaTeX use
