@@ -12,14 +12,12 @@ sitemap:
 ## Resources for Foley Lab Members
 
 <span class="image left"><img src="{{ "/images/hpc.jpg" | absolute_url }}" alt="" /></span> 
-This is page is meant to be a repository of useful information for new members in the Foley Lab.  There is
+This is page is meant to be a repository of useful information for Foley Lab members.  There is
 a growing list of YouTube tutorials meant to familiarize you with some of the basics of computational work, including
-how to remotely access the Foley Lab computers, how to edit text on a Linux machine, how to plot data with gnuplot, etc.
-More general resources for best practices for scientific research are also provided.
+how to remotely access the Foley Lab computers, how to edit files on a Linux machine, how to plot data with gnuplot, etc.
+More general external resources are also provided below.
 
 Internal Resources:
-
-[Foley Lab Project Status Reports](/assets/pubs/FoleyLab_Project_Status_Report.docx)
 
 YouTube Tutorials:
 
@@ -39,7 +37,17 @@ YouTube Tutorials:
 
 8.  Tutorial Eight: Basic LaTeX use (Coming Soon)
 
-External Resources:
+[Foley Lab Project Status Report](/assets/pubs/FoleyLab_Project_Status_Report.docx) - To be used by Foley Lab members to track progress on their research projects - MANDATORY FOR SENIOR RESEARCH STUDENTS!
 
-1. [Whitesides guide to writing a scientific paper](http://ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
+
+External Resources:  Being an effective researcher in the Foley Lab should be mutually beneficial - your efforts should 
+contribute to your own intellectual and professional growth, and they should also further the [research goals of the Foley Lab](/about/). 
+This situation doesn't arise by accident; it takes communication, planning, and purposeful effort from all parties.  
+Below are some resources from people that have been influential in how I think about purposeful effort, persistence, and planning in research.  
+
+1. [Google Talk on Growth Mindset by Carol Dweck](https://youtu.be/-71zdXCMU6A)
+
+2. [Goole Talk on Grit by Angela Duckworth](https://youtu.be/W-ONEAcBeTk)
+
+3. [George Whitesides' guide to writing a scientific paper](http://ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
  
