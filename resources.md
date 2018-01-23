@@ -50,4 +50,4 @@ Below are some resources from people that have been influential in how I think a
 2. [Goole Talk on Grit by Angela Duckworth](https://youtu.be/W-ONEAcBeTk)
 
 3. [George Whitesides' guide to writing a scientific paper](http://ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
- 
+
