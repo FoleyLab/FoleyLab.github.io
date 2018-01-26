@@ -51,3 +51,8 @@ Below are some resources from people that have been influential in how I think a
 
 3. [George Whitesides' guide to writing a scientific paper](http://ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
 
+Other Useful Resources:
+
+[Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
+
+
