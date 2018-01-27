@@ -1,0 +1,51 @@
+%%%% Uncomment for two-column
+\documentclass[journal=jpclcd,manuscript=article,layout=twocolumn]{achemso}
+%% Uncomment for single column
+%%\documentclass[journal=jpclcd,manuscript=article]{achemso}
+\pdfoutput=1
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{color}
+
+\setkeys{acs}{maxauthors = 0}
+\captionsetup{font={sf,small}}
+
+\let\oldmaketitle\maketitle
+\let\maketitle\relax
+
+\author{First Author}
+\affiliation{Department of Chemistry, William Paterson University, 300 Pompton Road, Wayne, NJ, 07470, USA}
+\author{Second Author}
+\affiliation{Department of Chemistry, William Paterson University, 300 Pompton Road, Wayne, NJ, 07470, USA}
+
+\title{Title of the Paper}
+\email{email@example.com}
+\begin{document}
+%%% Uncomment if you have a TOC figure you want to include
+%%\begin{tocentry}
+%%%\includegraphics[width=2in]{ }
+%%\end{tocentry}
+
+\twocolumn[
+\begin{@twocolumnfalse}
+\oldmaketitle
+\begin{abstract}
+%Abstract goes here!
+
+%% Keywords go here!
+{\bf Keywords:}  
+\end{abstract}
+\end{@twocolumnfalse}
+]
+
+\section{Introduction}
+%% Text goes here!
+
+
+%% Bibliography called here
+\bibliography{Example}
+
+%% This is the end of the document
+\end{document}
+

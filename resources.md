@@ -37,6 +37,10 @@ YouTube Tutorials:
 
 8.  Tutorial Eight: Basic LaTeX use (Coming Soon)
 
+-- [Blank LaTeX document](/assets/pubs/example.tex)
+
+-- [Blank BibTex document](/assets/pubs/example.bib)
+
 [Foley Lab Project Status Report](/assets/pubs/FoleyLab_Project_Status_Report.docx) - To be used by Foley Lab members to track progress on their research projects - MANDATORY FOR SENIOR RESEARCH STUDENTS!
 
 
