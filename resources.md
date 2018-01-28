@@ -35,7 +35,7 @@ YouTube Tutorials:
 
 7. Tutorial Seven: Basic elements of a program in Python (Coming Soon)
 
-8.  Tutorial Eight: Basic LaTeX use (Coming Soon)
+8.  Tutorial Eight: [Basic LaTeX use](https://youtu.be/BPcFAmskBJs)
 
 -- [Blank LaTeX document](/assets/pubs/Example.tex)
 
