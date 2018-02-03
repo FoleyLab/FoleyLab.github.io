@@ -57,13 +57,15 @@ Below are some resources from people that have been influential in how I think a
 
 Other Useful Resources:
 
-[Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
-
-
 $$
 i\hbar\frac{\partial \psi}{\partial t}
   = \frac{-\hbar^2}{2m} \frac{\partial^2 \psi}{\partial x^2} + V \psi
 $$
+
+
+[Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
+
+
 
 
 
