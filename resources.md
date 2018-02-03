@@ -59,4 +59,9 @@ Other Useful Resources:
 
 [Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
 
+\[
+i\hbar \frac{\partial}{\partial t} \Psi(x,t) = \hat{H} \Psi(x,t)
+\]
+
+
 
