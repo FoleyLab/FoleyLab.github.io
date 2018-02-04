@@ -4,6 +4,7 @@ title: Resources
 description: Foley Lab Resources
 date: 2017-11-02
 image: /images/hpc.jpg
+use_math: true 
 sitemap:
     priority: 0.7
     lastmod: 2017-11-02
@@ -65,7 +66,7 @@ $$
 
 [Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
 
-{% video /assets/schrodinger_barrier.mp4 360 270 %}
+
 
 
 
