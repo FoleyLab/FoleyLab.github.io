@@ -66,7 +66,7 @@ $$
 [Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
 
 TDSE:
-![Gaussian Wavepacket](/assets/schrodinger_barrier.mp4)
+<span class="image left"><img src="{{ "/assets/schrodinger_barrier.mp4" | absolute_url }}" alt="" /></span>
 
 
 
