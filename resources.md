@@ -65,9 +65,7 @@ $$
 
 [Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
 
-TDSE:
-<span class="image left"><img src="{{ "/assets/schrodinger_barrier.mp4" | absolute_url }}" alt="" /></span>
-
+{% video /assets/schrodinger_barrier.mp4 360 270 %}
 
 
 
