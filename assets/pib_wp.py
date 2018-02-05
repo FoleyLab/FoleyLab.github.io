@@ -125,8 +125,8 @@ def animate(i):
 
 anim = animation.FuncAnimation(fig, animate, init_func=init,
                                frames=10000, interval=20, blit=True)
-anim.save('schrodinger_barrier.mp4', fps=15, extra_args=['-vcodec', 'libx264'])
-#plt.show()
+### uncomment to save animation as mp4 anim.save('pib_wp.mp4', fps=15, extra_args=['-vcodec', 'libx264'])
+plt.show()
 
 
 #### Static plot
