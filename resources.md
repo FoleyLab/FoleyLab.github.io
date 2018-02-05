@@ -60,14 +60,12 @@ Other Useful Resources:
 
 [Time evolution of a Gaussian Wavepacket](https://youtu.be/aE4eEP-V_V8)
 
-- [Python code to generate animation](/assets/pib_wp.py)
+- [Python code to generate animation of Gaussian Wavepacket](/assets/pib_wp.py)
+
+- [Python code to generate animation of Energy Eigenstate 3 for PIB](/assets/pib_ee3.py)
 
 [Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 5978ebec65d21c55ce1a6f6eb8ff5783c6ac7dc0
 
 
 
