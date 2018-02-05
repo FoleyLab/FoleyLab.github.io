@@ -57,15 +57,12 @@ Below are some resources from people that have been influential in how I think a
 
 Other Useful Resources:
 
-$$
-i\hbar\frac{\partial \psi}{\partial t}
-  = \frac{-\hbar^2}{2m} \frac{\partial^2 \psi}{\partial x^2} + V \psi
-$$
+[Time evolution of a Gaussian Wavepacket](https://youtu.be/aE4eEP-V_V8)
 
+- [Python code to generate animation](/assets/pib_wp.py)
 
 [Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
 
-{% video /assets/schrodinger_barrier.mp4 360 270 %}
 
 
 
