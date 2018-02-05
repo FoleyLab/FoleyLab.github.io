@@ -4,6 +4,7 @@ title: Resources
 description: Foley Lab Resources
 date: 2017-11-02
 image: /images/hpc.jpg
+use_math: true 
 sitemap:
     priority: 0.7
     lastmod: 2017-11-02
@@ -63,6 +64,10 @@ Other Useful Resources:
 
 [Vim Cheat Sheet](/assets/pubs/vi_cheat_sheet.pdf)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5978ebec65d21c55ce1a6f6eb8ff5783c6ac7dc0
 
 
 
