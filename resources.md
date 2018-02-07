@@ -35,10 +35,15 @@ YouTube Tutorials:
 6. Tutorial Six: Basic elements of a program in C/C++ (Coming Soon)
 
 7. Tutorial Seven: Wavepacket Dynamics with Python:
+
 -- [Part 1: General Overview](https://youtu.be/LpyyPTVP37o)
+
 -- [Part 2: Expansion of Initial Gaussian Wavepacket](https://youtu.be/LpyyPTVP37o)
+
 -- [Part 3: Animating the dynamics](https://youtu.be/LpyyPTVP37o)
+
 -- [Python code for Part 2](/assets/pib_static.py)
+
 -- [Python code for Part 3](/assets/pib_wp.py)
 
 8.  Tutorial Eight: [Basic LaTeX use](https://youtu.be/BPcFAmskBJs)
