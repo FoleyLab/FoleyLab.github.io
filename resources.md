@@ -38,7 +38,7 @@ YouTube Tutorials:
 
 -- [Part 1: General Overview](https://youtu.be/LpyyPTVP37o)
 
--- [Part 2: Expansion of Initial Gaussian Wavepacket](https://youtu.be/0ye0q5aWzfQ)
+-- [Part 2: Expansion of Initial Gaussian Wavepacket](https://youtu.be/NtqkJWp1OBM)
 
 -- Part 3: Animating the dynamics (Coming Soon)
 
