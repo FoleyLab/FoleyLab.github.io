@@ -38,9 +38,9 @@ YouTube Tutorials:
 
 -- [Part 1: General Overview](https://youtu.be/LpyyPTVP37o)
 
--- [Part 2: Expansion of Initial Gaussian Wavepacket](https://youtu.be/LpyyPTVP37o)
+-- [Part 2: Expansion of Initial Gaussian Wavepacket](https://youtu.be/0ye0q5aWzfQ)
 
--- [Part 3: Animating the dynamics](https://youtu.be/LpyyPTVP37o)
+-- Part 3: Animating the dynamics (Coming Soon)
 
 -- [Python code for Part 2](/assets/pib_static.py)
 
