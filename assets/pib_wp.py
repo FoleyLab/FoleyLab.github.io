@@ -6,9 +6,9 @@ from matplotlib import animation
 
 
 # First set up the figure, the axis, and the plot element we want to animate
-fig = plt.figure()
-ax = plt.axes(xlim=(0, 500), ylim=(-0.03, 0.03))
-line, = ax.plot([], [], lw=2)
+#fig = plt.figure()
+#ax = plt.axes(xlim=(0, 500), ylim=(-0.03, 0.03))
+#line, = ax.plot([], [], lw=2)
 
 ### Function that takes in a list of x-coordinates, the quantum number, and the length L
 ### and returns PIB energy eigenfunction
@@ -71,6 +71,13 @@ def Normalize(c):
 #### Initialize some variables/arrays that will be used by the animate function
 L = 500.
 xt = np.linspace(0, L, 2000)
+
+### set style for plot
+fig = plt.figure()
+ax = plt.axes(xlim=(0, L), ylim=(-0.03, 0.03))
+line, = ax.plot([], [], lw=2)
+
+
 psi_exp = np.zeros(len(xt),dtype=complex)
 ### Imaginary unit i
 ci = 0.+1j
