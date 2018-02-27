@@ -18,7 +18,7 @@ a growing list of YouTube tutorials meant to familiarize you with some of the ba
 how to remotely access the Foley Lab computers, how to edit files on a Linux machine, how to plot data with gnuplot, etc.
 More general external resources are also provided below.
 
-Internal Resources:
+#Internal Resources:
 
 YouTube Tutorials:
 
@@ -55,16 +55,30 @@ YouTube Tutorials:
 [Foley Lab Project Status Report](/assets/pubs/FoleyLab_Project_Status_Report.docx) - To be used by Foley Lab members to track progress on their research projects - MANDATORY FOR SENIOR RESEARCH STUDENTS!
 
 
-External Resources:  Being an effective researcher in the Foley Lab should be mutually beneficial - your efforts should 
+#External Resources  
+
+1.  Intermediate Git tutorial by Dr. Raman Shah
+
+-- [Part 1:](https://github.com/ramanshah/intermediate_git/blob/master/day1/day1_slides.pdf)
+
+-- [Part 2:](https://github.com/ramanshah/intermediate_git/blob/master/day2/day2_slides.pdf)
+
+-- [Part 3:](https://github.com/ramanshah/intermediate_git/blob/master/day3/day3_slides.pdf)
+
+-- [Part 4:](https://github.com/ramanshah/intermediate_git/blob/master/day4/day4_slides.pdf)
+
+#General Resources
+
+Being an effective researcher in the Foley Lab should be mutually beneficial - your efforts should 
 contribute to your own intellectual and professional growth, and they should also further the [research goals of the Foley Lab](/about/). 
 This situation doesn't arise by accident; it takes communication, planning, and purposeful effort from all parties.  
 Below are some resources from people that have been influential in how I think about purposeful effort, persistence, and planning in research.  
 
-1. [Google Talk on Growth Mindset by Carol Dweck](https://youtu.be/-71zdXCMU6A)
+1. [Google Talk on Growth Mindset by Prof. Carol Dweck](https://youtu.be/-71zdXCMU6A)
 
-2. [Goole Talk on Grit by Angela Duckworth](https://youtu.be/W-ONEAcBeTk)
+2. [Goole Talk on Grit by Prof. Angela Duckworth](https://youtu.be/W-ONEAcBeTk)
 
-3. [George Whitesides' guide to writing a scientific paper](http://ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
+3. [Prof. George Whitesides' guide to writing a scientific paper](http://ee.ucr.edu/~rlake/Whitesides_writing_res_paper.pdf)
 
 Other Useful Resources:
 
