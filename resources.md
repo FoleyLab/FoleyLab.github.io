@@ -18,7 +18,7 @@ a growing list of YouTube tutorials meant to familiarize you with some of the ba
 how to remotely access the Foley Lab computers, how to edit files on a Linux machine, how to plot data with gnuplot, etc.
 More general external resources are also provided below.
 
-# Internal Resources:
+### Internal Resources:
 
 YouTube Tutorials:
 
@@ -55,7 +55,7 @@ YouTube Tutorials:
 [Foley Lab Project Status Report](/assets/pubs/FoleyLab_Project_Status_Report.docx) - To be used by Foley Lab members to track progress on their research projects - MANDATORY FOR SENIOR RESEARCH STUDENTS!
 
 
-# External Resources  
+### External Resources  
 
 1.  Intermediate Git tutorial by Dr. Raman Shah
 
@@ -67,7 +67,7 @@ YouTube Tutorials:
 
 -- [Part 4:](https://github.com/ramanshah/intermediate_git/blob/master/day4/day4_slides.pdf)
 
-# General Resources
+### General Resources
 
 Being an effective researcher in the Foley Lab should be mutually beneficial - your efforts should 
 contribute to your own intellectual and professional growth, and they should also further the [research goals of the Foley Lab](/about/). 
