@@ -3,7 +3,7 @@ layout: post
 image: /images/jpc_borophene.gif
 link: https://pubs.acs.org/doi/abs/10.1021/acs.jpcc.7b10197
 title: "Our collaborative work with Sahar Sharifzadeh at Boston University 
-and Pierre Darancet at Argonne National Lab is published in J. Phys. Chem. C!"
+and Pierre Darancet at Argonne National Lab is published in J Phys Chem C!"
 journal: "J. Phys. Chem. C"
 year: 2018
 date: 2018-01-29
