@@ -32,7 +32,15 @@ YouTube Tutorials:
 
 5. Tutorial Five:  Basic github usage (Coming Soon)
 
-6. Tutorial Six: Basic elements of a program in C/C++ (Coming Soon)
+6. Tutorial Six: Variational Method applied to the Harmonic Oscillator with Python:
+
+-- [Part 1: General Overview](https://youtu.be/Bcjywu0u1SA)
+
+-- [Part 2: Implementing Basic Tools](https://youtu.be/Z5V7EFoVuGQ)
+
+-- [Part 3: Putting it all together](https://youtu.be/gZb1_VnMAtQ)
+
+-- [Python code](/assets/Variational_HO.py)
 
 7. Tutorial Seven: Wavepacket Dynamics with Python:
 
