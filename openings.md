@@ -23,5 +23,8 @@ while working in any one of the following areas:
 - Theory and modeling of strong light-matter interactions 
 
 Financial support is available for exceptionally qualified candidates.
+More information about the Materials Chemistry graduate program at William Paterson University
+can be found [here](https://www.wpunj.edu/cosh/departments/chemistry/graduate-programs/)
+
 To apply, or for more information, please e-mail Prof. Jay Foley at <foleyj10@wpunj.edu>.
  <!--  </p> </div> . -->
