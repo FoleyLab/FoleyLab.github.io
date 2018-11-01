@@ -22,5 +22,6 @@ while working in any one of the following areas:
 
 - Theory and modeling of strong light-matter interactions 
 
+Financial support is available for exceptionally qualified candidates.
 To apply, or for more information, please e-mail Prof. Jay Foley at <foleyj10@wpunj.edu>.
  <!--  </p> </div> . -->
