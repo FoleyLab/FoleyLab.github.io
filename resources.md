@@ -62,6 +62,7 @@ YouTube Tutorials:
 
 [Foley Lab Project Status Report](/assets/pubs/FoleyLab_Project_Status_Report.docx) - To be used by Foley Lab members to track progress on their research projects - MANDATORY FOR SENIOR RESEARCH STUDENTS!
 
+[Cheat sheet for common Linux/Vim commands](/assets/pubs/Cheat.docx)
 
 ### External Resources  
 
