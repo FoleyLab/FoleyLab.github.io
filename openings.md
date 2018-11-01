@@ -20,8 +20,7 @@ while working in any one of the following areas:
 
 - Development of computational/modeling tools for thermal radiation
 
-- Theory and modeling of strong light-matter interactions mediated by nanostructures
+- Theory and modeling of strong light-matter interactions 
 
-To apply, or for more information, please e-mail Prof. Jay Foley at foleyj10@wpunj.edu.
-
+To apply, or for more information, please e-mail Prof. Jay Foley at <foleyj10@wpunj.edu>.
  <!--  </p> </div> . -->
