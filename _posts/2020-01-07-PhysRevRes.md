@@ -2,7 +2,7 @@
 layout: post
 image: /images/TOC_2.png
 link: https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.2.013018
-title: "Accelerating the Discovery of Multilayer Nanostructures with Analytic Differentiation of the Transfer Matrix Equation" 
+title: "Accelerating the Discovery of Multilayer Nanostructures with Analytic Differentiation of the Transfer Matrix Equations" 
 authors: "James F. Varner, Dayanara Wert, Aya Matari, Raghad Nofal, Jonathan J. Foley IV" 
 journal: "Phys. Rev. Research"
 year: 2020
