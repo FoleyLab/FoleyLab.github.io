@@ -1,9 +1,8 @@
 ---
 layout: post
 image: /images/emitter_opt.png
-link: https://pubs.acs.org/doi/abs/10.1021/acsami.9b13944
-title: "Our paper describing an efficient analytical-gradient driven approach
-to multi-layer nanomaterial design has been published in Physical Review Research"
+link: https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.2.013018
+title: "Our analytic gradient-driven nanomaterial design paper is out in Phys. Rev. Res!"
 authors: "James F. Varner, Dayanara Wert, Aya Matari, Raghad Nofal, Jonathan J. Foley IV"
 journal: "Physical Review Research"
 year: 2020
