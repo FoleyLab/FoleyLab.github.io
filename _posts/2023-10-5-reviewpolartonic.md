@@ -1,3 +1,4 @@
+---
 layout: post
 image: /images/polariton.png
 link: https://doi.org/10.48550/arXiv.2307.04881
@@ -5,7 +6,7 @@ title: "Ab initio methods for polariton chemistry"
 authors: "PJonathan J. Foley IV, Jonathan F. McTague, A. Eugene DePrince III" 
 journal: "Chem. Phys. Rev."
 year: 2023
-date: 2023-09-2
+date: 2023-09-02
 category: publication
 ---
 Polariton chemistry exploits the strong interaction between quantized excitations in
