@@ -3,7 +3,7 @@ layout: post
 image: /images/ACS2022wpthermal.png
 link: https://pubs.acs.org/doi/pdf/10.1021/bk-2022-1428.ch003
 title: "Embracing Modern SoftwareDevelopment Best Practices in an Undergraduate Research Setting: A Case Study with the WPTherml SoftwarePackage" 
-authors: "Figen Suchanek,JamesVarner,Alyssa Lakatos,Jose Bello,Samar Soufanati,and Jonathan J. Foley IV*,2,3" 
+authors: "Figen Suchanek,JamesVarner,Alyssa Lakatos,Jose Bello,Samar Soufanati,and Jonathan J. Foley IV*" 
 journal: "ACS Publications"
 year: 2022
 date: 2022-11-21
