@@ -2,7 +2,7 @@
 layout: post
 image: /images/Lane_Tolley_SERMACS_Award.jpeg
 title: "Lanr Tolley won Best Undergradute poster award at SERMAC 2023!"
-date: 2023-11-09
+date: 2023-10-28
 year: 2023
 category: post
 ---
