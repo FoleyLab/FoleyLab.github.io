@@ -4,7 +4,7 @@ image: /images/ruby_M.png
 link: https://molssi.org/fellowship/molssis-new-software-fellows/
 title: "Congratulations Ruby Manderna for selecting as MolSSI’s 2024-2025 Software Fellow"
 year: 2024
-date: 2024-06-02
+date: 2024-07-01
 category: post
 ---
 <p>
