@@ -3,7 +3,8 @@ layout: post
 image: images/JCTC-kenny-nam-25.png
 link: https://pubs.acs.org/doi/10.1021/acs.jctc.5c00927?ref=pdf 
 title: "Modeling Strong Light-Matter Coupling in Correlated Systems: State-Averaged Cavity Quantum Electrodynamics Complete Active Space Self-Consistent Field Theory"
-authors: " Nam Vu*, Kenny Ampoh, Mikuláš MatoušekLibor Veis, Niranjan Govind, Jonathan J. Foley IV*
+authors: " Nam Vu*, Kenny Ampoh, Mikuláš MatoušekLibor Veis, Niranjan Govind, Jonathan J. Foley IV*"
+journal: "Journal of Chemical Theory and Computation"
 year: 2025
 category: publication
 ---
