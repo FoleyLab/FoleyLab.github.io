@@ -1,0 +1,10 @@
+---
+layout: post
+image: images/JCTC-kenny-nam-25.png
+link: https://pubs.acs.org/doi/10.1021/acs.jctc.5c00927?ref=pdf 
+title: "Modeling Strong Light-Matter Coupling in Correlated Systems: State-Averaged Cavity Quantum Electrodynamics Complete Active Space Self-Consistent Field Theory"
+authors: " Nam Vu*, Kenny Ampoh, Mikuláš MatoušekLibor Veis, Niranjan Govind, Jonathan J. Foley IV*
+year: 2025
+category: publication
+---
+The description of strongly correlated systems interacting with quantized cavity modes poses significant theoretical challenges due to the combinatorial scaling of the electronic and photonic degrees of freedom. Recent advances addressing this complexity include cavity quantum electrodynamics (QED) generalizations of complete active space configuration interaction and density matrix renormalization group methods. In this work, we introduce a QED extension of state-averaged complete active space self-consistent field theory, which incorporates cavity-induced correlations through a second-order orbital optimization framework with robust convergence properties. The method is implemented using both photon number state and coherent state representations, with the latter showing robust origin invariance in the energies, regardless of the completeness of the photonic Fock space. The implementation enables symmetry-free orbital relaxations to account for photon-mediated symmetry breaking in polaritonic systems. Numerical validation on lithium hydride, hydroxide anion, and magnesium hydride cation demonstrates that this method achieves significantly improved accuracy in modeling ground-state and polariton potential energy surfaces compared with QED-CASCI in a fixed orbital basis. In these studies, we reach sub kcal/mol accuracy in potential energy surface in much smaller active spaces than are required for QED-CASCI. This advancement provides a more robust approach for studying cavity-altered chemical landscapes for ground and excited strongly coupled systems.
