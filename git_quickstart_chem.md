@@ -27,11 +27,8 @@ git push -u origin feature/task
 2. Stage changes visually → Commit with a clear summary.
 3. Push → Create Pull Request → Request review → Merge.
 
-## .gitignore (chemistry‑flavored)
+## .gitignore
 - Ignore obvious scratch and huge transient files: `scratch/`, `tmp/`, `*.log` (if massive), etc.
-- Gaussian: `*.chk`, `*.fchk`
-- ORCA: `*.gbw`
-- VASP: `WAVECAR`, `CHGCAR`, `AECCAR*`, `EIGENVAL`, `PROCAR`, `XDATCAR`, `OUTCAR`, `OSZICAR`, `vasprun.xml`
 - Python: `__pycache__/`, `*.pyc`, `.ipynb_checkpoints/`
 - OS/Editor cruft: `.DS_Store`, `Thumbs.db`
 
@@ -49,8 +46,8 @@ git push
 ```
 
 ## Notebooks & Reproducibility
-- Keep outputs light; consider `nbstripout`.
-- Use `nbdime` for readable diffs.
+- Keep outputs light; consider `nbstripout` - read about nbstripout [here](https://pypi.org/project/nbstripout/0.2.5/)
+- Use `nbdime` for readable diffs - watch about nbdime [here](https://youtu.be/tKAmwC8ay8E?si=-UGgydIL0PItqsBX)
 - Capture environments in `environment.yml` or `requirements.txt`.
 
 ## HPC Tips
