@@ -1,5 +1,7 @@
-# Git & GitHub Quickstart (Computational Chemistry)
+# Git & GitHub Quickstart
 
+## Idea of github
+![Git Overview](images/GIT-Version-Control-System.jpg)
 ## Setup
 - Install Git and create a GitHub account.
 - Configure identity:
