@@ -18,6 +18,12 @@ a growing list of YouTube tutorials meant to familiarize you with some of the ba
 how to remotely access the Foley Lab computers, how to edit files on a Linux machine, how to plot data with gnuplot, etc.
 More general external resources are also provided below.
 
+### Github Quickstart guide
+
+- [Git quickstart](git_quickstart_chem.md)
+
+- [Onboarding exercise](onboarding_exercise.md)
+
 ### Internal Resources:
 
 YouTube Tutorials:
