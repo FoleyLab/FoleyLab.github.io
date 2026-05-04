@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="{{ site.locale | default: 'en' }}">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="is-loading {% if page.body_class %}{{ page.body_class }}{% endif %}">
+    <div id="wrapper" class="fade-in">
+      <header id="header">
+        <a href="{{ "/" | absolute_url }}" class="logo">{{ site.title }}</a>
+      </header>
+
+      <nav id="nav">
+        {% include nav.html %}
+        <ul class="icons">
+          <li><a href="{{ site.social.twitter }}" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
+          <li><a href="{{ site.social.github }}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
+        </ul>
+      </nav>
+
+      <div id="main">
+        {{ content }}
+      </div>
+
+      {% include foot.html %}
+    </div>
+
+    {% include scripts-main.html %}
+    {% include tracking.html %}
+  </body>
+</html>

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<section class="section-shell flush-top">
+  <header class="major page-hero">
+    <p class="eyebrow">Publication</p>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.authors }}</p>
+  </header>
+  <article class="publication-card publication-card--detail">
+    {% if page.toc_figure %}
+    <div class="publication-card__media">
+      <img src="{{ page.toc_figure | absolute_url }}" alt="{{ page.title }}" />
+    </div>
+    {% endif %}
+    <div class="publication-card__body">
+      <p class="mini-meta">{{ page.journal }} • {{ page.date | date: "%B %Y" }}</p>
+      <p class="pub-authors">{{ page.authors }}</p>
+      {% if page.external_url %}<p><a href="{{ page.external_url }}">View journal article</a></p>{% endif %}
+      {% if page.abstract %}
+      <h3>Abstract</h3>
+      <p>{{ page.abstract }}</p>
+      {% endif %}
+      <div class="rich-copy">{{ content }}</div>
+    </div>
+  </article>
+</section>

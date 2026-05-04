@@ -85,7 +85,7 @@ YouTube Tutorials:
 ### General Resources
 
 Being an effective researcher in the Foley Lab should be mutually beneficial - your efforts should 
-contribute to your own intellectual and professional growth, and they should also further the [research goals of the Foley Lab](/about/). 
+contribute to your own intellectual and professional growth, and they should also further the [research goals of the Foley Lab](/research/). 
 This situation doesn't arise by accident; it takes communication, planning, and purposeful effort from all parties.  
 Below are some resources from people that have been influential in how I think about purposeful effort, persistence, and planning in research.  
 

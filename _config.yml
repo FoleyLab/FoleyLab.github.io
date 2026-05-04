@@ -4,7 +4,23 @@ bio:                'The Foley Research Group'
 description:        "The Foley Research Group"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://foleylab.github.io" # the base hostname & protocol for your site
+logo_image:         /images/Logo.png
+hero_image:         /images/FoleyLab_summer_2025.jpg
+social:
+  twitter:          https://twitter.com/Foley_lab
+  github:           https://github.com/FoleyLab
+
+collections:
+  people:
+    output: true
+    permalink: /people/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/
+  news:
+    output: true
+    permalink: /news/:name/
 
 defaults:
 - scope:
@@ -14,6 +30,21 @@ defaults:
     permalink: "/blog/:title/"
     layout: post
     author:
+- scope:
+    path: ''
+    type: people
+  values:
+    layout: person
+- scope:
+    path: ''
+    type: publications
+  values:
+    layout: publication
+- scope:
+    path: ''
+    type: news
+  values:
+    layout: news_item
 
 # Jekyll
 permalink:          /blog/:title/
@@ -44,13 +75,14 @@ github:             FoleyLab
 location:           Charlotte, NC
 email:              jfoley19@uncc.edu
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-redirect-from
 
 paginate: 6
 paginate_path: "/blog/page:num/"

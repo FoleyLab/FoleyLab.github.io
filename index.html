@@ -1,118 +1,130 @@
 ---
-layout: null
+layout: home
 title: Foley Lab
-description: Every great website starts with a great homepage. The homepage tells your viewers what your site is all about and gives your viewers a place to come back to.
+description: The Foley Lab studies light-matter interactions across quantum chemistry, nanophotonics, and energy materials.
 sitemap:
-    priority: 1.0
-    lastmod: 2017-11-02
-    changefreq: weekly
+  priority: 1.0
+  changefreq: weekly
 ---
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-  Jekyll integration by somiibo.com
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-    {% include head.html %}
+<section class="hero-band">
+  <div class="hero-copy">
+    <p class="eyebrow">University of North Carolina at Charlotte</p>
+    <h1>Modeling how light changes matter, and how matter changes light.</h1>
+    <p class="hero-text">The Foley Lab develops theory, computation, and research software for cavity QED, nanophotonics, thermal radiation, and molecular materials design.</p>
+    <ul class="actions stacked-mobile">
+      <li><a href="{{ "/research/" | absolute_url }}" class="button special">Explore Our Research</a></li>
+      <li><a href="{{ "/tools/" | absolute_url }}" class="button">Try Interactive Tools</a></li>
+    </ul>
+  </div>
+  <div class="hero-visual">
+    <img src="{{ site.hero_image | absolute_url }}" alt="Foley Lab group photo" />
+  </div>
+</section>
 
+<section class="spotlight-grid">
+  <article class="spotlight-card">
+    <p class="eyebrow">What We Study</p>
+    <h2>Multi-scale light-matter theory</h2>
+    <p>From nanoparticle optics and thin-film thermal emission to ab initio cavity quantum electrodynamics, our work connects fundamental modeling with experimentally relevant materials and devices.</p>
+  </article>
+  <article class="spotlight-card">
+    <p class="eyebrow">What’s New</p>
+    <h2>Structured content for easy updates</h2>
+    <p>The site now supports collection-based entries for people, publications, and news, so most updates happen in short Markdown files instead of long hand-edited pages.</p>
+  </article>
+  <article class="spotlight-card">
+    <p class="eyebrow">What’s Next</p>
+    <h2>Research widgets</h2>
+    <p>A dedicated tools page is ready for future calculation engines for Mie theory, transfer-matrix optics, cavity Hamiltonians, and unit conversion workflows.</p>
+  </article>
+</section>
 
-	</head>
-	<body class="is-loading">
+<section class="section-shell">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Research Areas</p>
+      <h2>Core directions in the group</h2>
+    </div>
+  </div>
+  <div class="feature-grid">
+    <article class="feature-card">
+      <h3>Nanophotonics and Thermal Radiation</h3>
+      <p>Optical properties of nanoparticles, scattering-mediated absorption, radiative heat transfer, and selective thermal emitters for energy applications.</p>
+    </article>
+    <article class="feature-card">
+      <h3>Polaritonic and Cavity Chemistry</h3>
+      <p>Quantum electrodynamical Hamiltonians, strong light-matter coupling, and computational methods for molecules in optical cavities.</p>
+    </article>
+    <article class="feature-card">
+      <h3>Research Software and Modeling</h3>
+      <p>Simulation workflows that help design materials, interpret experiments, and prototype new theoretical tools for light-driven chemistry.</p>
+    </article>
+  </div>
+</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+<section class="section-shell">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Latest News</p>
+      <h2>Recent updates from the lab</h2>
+    </div>
+    <a href="{{ "/news/" | absolute_url }}" class="button small">All News</a>
+  </div>
+  <div class="feature-grid">
+    {% assign latest_news = site.news | sort: "date" | reverse %}
+    {% for item in latest_news limit:3 %}
+    <article class="story-card">
+      {% if item.image %}<img src="{{ item.image | absolute_url }}" alt="{{ item.title }}" />{% endif %}
+      <div class="story-card__body">
+        <p class="mini-meta">{{ item.date | date: "%B %Y" }}</p>
+        <h3><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></h3>
+        <p>{{ item.content | strip_html | truncate: 150 }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 
-				<!-- Intro -->
-					<div id="intro">
-            <h1>{{site.title}}</h1>
-						
-						<p>Welcome to the Foley Lab homepage! We are collaborative group of theoretical chemists at University of North Carolina Charlotte who are passionate about discovering how light changes 
-							matter and how matter changes light! </p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+<section class="section-shell">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">Recent Publications</p>
+      <h2>Selected papers</h2>
+    </div>
+    <a href="{{ "/publications/" | absolute_url }}" class="button small">All Publications</a>
+  </div>
+  <div class="feature-grid">
+    {% assign latest_pubs = site.publications | sort: "date" | reverse %}
+    {% for item in latest_pubs limit:3 %}
+    <article class="publication-card compact">
+      {% if item.toc_figure %}<img src="{{ item.toc_figure | absolute_url }}" alt="{{ item.title }}" />{% endif %}
+      <div class="publication-card__body">
+        <p class="mini-meta">{{ item.journal }} • {{ item.date | date: "%Y" }}</p>
+        <h3><a href="{{ item.url | absolute_url }}">{{ item.title }}</a></h3>
+        <p>{{ item.authors }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="{{ "/" | absolute_url }}" class="logo">{{site.title}}</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-
-            {% include nav.html %}
-
-						<ul class="icons">
-              <li><a href="https://twitter.com/Foley_lab" class="icon fa-twitter" rel="nofollow"><span class="label">Twitter</span></a></li>
-              <li><a href="https://github.com/{{site.github}}" class="icon fa-github" rel="nofollow"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
-
-				<!-- Main -->
-					<div id="main">
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Recent News</a></h2>
-								</header>
-								<a href="#" class="image main"><img src="{{ "/images/FoleyLab_summer_2025.jpg" | absolute_url }}" alt="" /></a>
-
-						<!--
-                <p>Regardless of your website's function, the homepage is what brings the user in.
-                  If it's anything short of intriguing, captivating, or just plain cool, you're out of luck and you might deter some visitors.</p>
-                <p>Your homepage must clearly describe what your site is about.
-									Having engaging content will in this manner enable you to offer and it will make your customers more inclined to purchase from you. Content is a way to position your organization in the correct place for your clients to discover you.
-								</p>
-								<p>
-									In this manner, content in itself is a standout amongst the best promoting apparatuses in your whole advertising toolbox! Rather than making your content around your promoting technique, it's limitlessly more productive to fabricate your showcasing around your content.
-								 </p>
-
-							</article>
--->
-						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% if post.category == "post" %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.authors }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  {% endif %}
-                  {% endif %}
-                {% endfor %}
-
-							</section>
-
-						<!-- Footer -->
-							<footer>
-                <ul class="actions">
-                  <li><a href="{{ "/blog/" | absolute_url }}" class="button">Our Blog</a></li>
-                </ul>
-							</footer>
-
-					</div>
-
-				<!-- Footer -->
-        {% include foot.html %}
-
-			</div>
-
-		<!-- Scripts -->
-		{% include scripts-main.html %}
-    {% include tracking.html %}
-
-	</body>
-</html>
+<section class="section-shell accent-shell">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow">People</p>
+      <h2>Current team highlights</h2>
+    </div>
+    <a href="{{ "/people/" | absolute_url }}" class="button small">Meet the Group</a>
+  </div>
+  <div class="people-grid">
+    {% assign current_people = site.people | where: "status", "current" %}
+    {% for person in current_people limit:4 %}
+    <article class="person-card">
+      {% if person.image %}<img src="{{ person.image | absolute_url }}" alt="{{ person.name }}" />{% endif %}
+      <h3><a href="{{ person.url | absolute_url }}">{{ person.name }}</a></h3>
+      <p class="mini-meta">{{ person.role }}</p>
+      <p>{{ person.research_focus }}</p>
+    </article>
+    {% endfor %}
+  </div>
+</section>

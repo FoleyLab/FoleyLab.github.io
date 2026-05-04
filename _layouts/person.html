@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<section class="section-shell flush-top">
+  <header class="major page-hero">
+    <p class="eyebrow">{{ page.status | capitalize }}</p>
+    <h1>{{ page.name }}</h1>
+    <p>{{ page.role }}</p>
+  </header>
+  <div class="feature-split">
+    <div class="feature-split__media profile-image">
+      {% if page.image %}<img src="{{ page.image | absolute_url }}" alt="{{ page.name }}" />{% endif %}
+    </div>
+    <div>
+      {% if page.research_focus %}<p><strong>Research focus:</strong> {{ page.research_focus }}</p>{% endif %}
+      {% if page.education %}<p><strong>Education:</strong> {{ page.education }}</p>{% endif %}
+      {% if page.email %}<p><strong>Email:</strong> <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>{% endif %}
+      {% if page.current_position %}<p><strong>Current position:</strong> {{ page.current_position }}</p>{% endif %}
+      <div class="rich-copy">{{ content }}</div>
+    </div>
+  </div>
+</section>

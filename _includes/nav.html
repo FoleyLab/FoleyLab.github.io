@@ -1,9 +1,10 @@
 <ul class="links">
   <li class="{% if page.url == "/" %} active {% endif %}"><a href="{{ "/" | absolute_url }}">Home</a></li>
-  <li class="{% if page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/elements/" | absolute_url }}">People</a></li>
+  <li class="{% if page.url contains '/people/' or page.url contains '/elements/' %} active {% endif %}"><a href="{{ "/people/" | absolute_url }}">People</a></li>
   <li class="{% if page.url contains '/publications/' %} active {% endif %}"><a href="{{ "/publications/" | absolute_url }}">Publications</a></li>
-  <li class="{% if page.url contains '/about/' %} active {% endif %}"><a href="{{ "/about/" | absolute_url }}">Research</a></li>
-  <li class="{% if page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/blog/" | absolute_url }}">News</a></li>  
+  <li class="{% if page.url contains '/research/' or page.url contains '/about/' %} active {% endif %}"><a href="{{ "/research/" | absolute_url }}">Research</a></li>
+  <li class="{% if page.url contains '/news/' or page.url contains '/blog/' %} active {% endif %}"><a href="{{ "/news/" | absolute_url }}">News</a></li>
+  <li class="{% if page.url contains '/tools/' %} active {% endif %}"><a href="{{ "/tools/" | absolute_url }}">Interactive Tools</a></li>
   <li class="{% if page.url contains '/resources/' %} active {% endif %}"><a href="{{ "/resources/" | absolute_url }}">Resources</a></li>
   <li class="{% if page.url contains '/openings/' %} active {% endif %}"><a href="{{ "/openings/" | absolute_url }}">Openings</a></li>
 </ul>
