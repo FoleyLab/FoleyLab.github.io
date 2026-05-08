@@ -15,7 +15,7 @@ redirect_from:
       <p>Our work spans nanoscale optical response, thermal radiation management, spectrally selective emitters, and quantum electrodynamical models for molecules in cavities. We aim to build methods that are both fundamental and useful for experimental collaborators.</p>
     </div>
     <div class="feature-split__media">
-      <img src="{{ "/images/Research_Overview.png" | absolute_url }}" alt="Research overview diagram" />
+      <img src="{{ "/images/Surfs_Up_CQED.jpg" | absolute_url }}" alt="Research overview diagram" />
     </div>
   </div>
 </section>
@@ -23,16 +23,16 @@ redirect_from:
 <section class="section-shell">
   <div class="feature-grid">
     <article class="feature-card">
-      <h3>Optical Nanomaterials</h3>
-      <p>Composite nanoparticles, hot-carrier processes, scattering-mediated absorption, and design principles for controlling absorption, emission, and scattering.</p>
-    </article>
-    <article class="feature-card">
-      <h3>Thin Films and Energy Conversion</h3>
-      <p>Thermal emitters, multilayer optical stacks, and materials strategies for solar thermophotovoltaics and related energy technologies.</p>
-    </article>
-    <article class="feature-card">
       <h3>Ab Initio Cavity QED</h3>
-      <p>Hamiltonian construction, electronic structure in cavities, and photonic effects on molecular structure, spectra, and reactivity.</p>
+      <p>Molecular Cavity Quantum Electrodynamics exploits the strong coupling between molecules and quantized radiation modes.  We develop and use theoretical tools to help understand this phenomenology.</p>
+    </article>
+    <article class="feature-card">
+      <h3>Nanomaterials for energy</h3>
+      <p>We develop and deploy computational methods to study and design nanomaterials for energy applications.  These include thermal emitters, multilayer optical stacks, and materials strategies for solar thermophotovoltaics and related energy technologies.</p>
+    </article>
+    <article class="feature-card">
+      <h3>Computation in Pedagogy</h3>
+      <p>We are pedagogically motivated and work on the interface between computation, generative artificial intelligence, and teaching and learning. </p>
     </article>
   </div>
 </section>
