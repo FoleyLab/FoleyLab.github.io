@@ -4,7 +4,7 @@ title: Dr. Jay Foley
 role: Principal Investigator
 status: current
 sort_order: 1
-image: /images/JayScaled.png
+image: /images/jay_profile_2021.png
 email: jfoley19@uncc.edu
 research_focus: Theoretical and computational chemistry of light-matter interactions.
 education: Ph.D. in Chemistry, University of Chicago; B.S. in Chemistry, Georgia Institute of Technology.
