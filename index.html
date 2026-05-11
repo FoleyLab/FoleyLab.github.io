@@ -118,7 +118,7 @@ sitemap:
   </div>
   <div class="people-grid">
     {% assign current_people = site.people | where: "status", "current" %}
-    {% for person in current_people limit:4 %}
+    {% for person in current_people limit:6 %}
     <article class="person-card">
       {% if person.image %}<img src="{{ person.image | absolute_url }}" alt="{{ person.name }}" />{% endif %}
       <h3><a href="{{ person.url | absolute_url }}">{{ person.name }}</a></h3>
