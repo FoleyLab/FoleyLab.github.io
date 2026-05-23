@@ -42,9 +42,10 @@ Most updates now happen by adding or editing small Markdown files.
 - Put images in `images/`.
 - Reference them as `/images/filename.png` in front matter.
 
-## Research tools
+## Research software
 
-- The tools page lives at `tools.md`.
-- Front-end behavior for widgets lives in `assets/js/research-tools.js`.
-- Styling for the redesign lives in `assets/css/foleylab.css`.
-- Future calculation logic can be dropped into the existing widget handlers without changing the page structure.
+- The software showcase page lives at `software.md`.
+- Project entries live in `_software/`.
+- Add one Markdown file per project with `title`, `section`, `order`, `project_url`, `summary`, optional `meta`, optional `initials`, and optional `logo`.
+- The reusable card markup lives in `_includes/software-card.html`.
+- Styling for the current site design lives in `assets/css/foleylab.css`.

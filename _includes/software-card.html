@@ -1,0 +1,23 @@
+<article class="software-card">
+  <div class="software-card__mark" aria-hidden="true">
+    {% if include.item.logo %}
+    <img src="{{ include.item.logo | absolute_url }}" alt="" />
+    {% else %}
+    <span>{{ include.item.initials | default: include.item.title | slice: 0, 2 }}</span>
+    {% endif %}
+  </div>
+  <div class="software-card__body">
+    <h3>{{ include.item.title }}</h3>
+    <p>{{ include.item.summary }}</p>
+    {% if include.item.meta %}
+    <ul class="software-card__meta" aria-label="{{ include.item.title }} metadata">
+      {% for tag in include.item.meta %}
+      <li>{{ tag }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+    <ul class="actions">
+      <li><a href="{{ include.item.project_url }}" class="button small" rel="nofollow noopener">{{ include.item.link_label | default: "Project Link" }}</a></li>
+    </ul>
+  </div>
+</article>
